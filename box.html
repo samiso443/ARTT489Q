@@ -2,30 +2,32 @@
 <html>
 <head>
 	<title>Terps Boxing Club | UMD</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="box.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
-<body>
+<body id="override">
+	<!-- navbar -->
 	<header>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<nav class="navbar navbar-expand-lg navbar-light">
 		  <div class="container">
-		  	<a class="navbar-brand" href="#">Terps Boxing Club</a>
+		  	<a class="navbar-brand text-white" href="#">Terps Boxing Club</a>
 		  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 		  	    <span class="navbar-toggler-icon"></span>
 		  	  </button>
 		  	<div class="collapse navbar-collapse" id="navbarNavDropdown">
 		  	  <ul class="navbar-nav ml-auto">
 		  	    <li class="nav-item active">
-		  	      <a class="nav-link" href="box.html">Home <span class="sr-only">(current)</span></a>
+		  	      <a class="nav-link text-white" href="box.html">Home <span class="sr-only">(current)</span></a>
 		  	    </li>
 		  	    <li class="nav-item">
-		  	      <a class="nav-link" href="#schedule">Schedule</a>
+		  	      <a class="nav-link text-white" href="#schedule">Schedule</a>
 		  	    </li>
 		  	    <li class="nav-item">
-		  	      <a class="nav-link" href="#exec">E-Board</a>
+		  	      <a class="nav-link text-white" href="#exec">E-Board</a>
 		  	    </li>
 		  	    <li class="nav-item">
-		  	      <a class="nav-link" href="#faqs">FAQs</a>
+		  	      <a class="nav-link text-white" href="#faqs">FAQs</a>
 		  	    </li>
 		  	  </ul>
 		  	</div>
@@ -36,27 +38,27 @@
 	<!-- hero space -->
 	<section class="hero">
 	  <div class="container">
-	    <h1 class="jumbotron-heading">Welcome, </h1>
-	    <!-- <p class="lead">We can put a short comment or a catchy phrase here</p> -->
+	    <h1>Welcome,  <br> 
+	    	UMD Terps <br>
+	    	Boxing Club </h1>
 	  </div>
 	</section>
 
 	<!-- schedule -->
-	<section id="schedule">
+	<section id="schedule" class="white">
 		<div class="container">
-			<div class="row">
-				<div class="col">
+			<div class="row justify-content-center">
+				<div class="col-12 col-sm-12 col-md-4 column-pad">
 					<h2>How To Join</h2>
 					<p>
-						1. Join <a href="#">Terps Boxing Club</a> on Facebook <br>
+						1. Join <a href="https://www.facebook.com/groups/TerpsBoxing/">Terps Boxing Club</a> on Facebook <br>
 						2. Come to any practice at your convenience <br>
 						3. Talk to an Executive Board Member <br>
 						4. Pay dues
 					</p>
 				</div>
-				<div class="col">
-					<h2>Schedule</h2>
-					<h5>Fall 2018</h5>
+				<div class="col-12 col-sm-12 col-md-4 column-pad">
+					<h2>Fall 2018 Schedule</h2>
 					<p>
 						Monday: 4:00PM - 6:00PM <br>
 						Tuesday: 4:30PM - 6:30PM <br>
@@ -70,37 +72,35 @@
 	</section>
 
 	<!-- exec board -->
-	<section id="exec">
+	<section id="exec" class="black">
 		<div class="container">
+			<h2>Executive Board</h2>
 			<div class="row">
-				<div class="col">
+				<div class="col-12 col-sm-12 col-md-4 column-pad">
 					<h6>President: Matt Prusz</h6>
 					<p>
 						Matt is a current senior pursuing a degree in Public Health. He was born in Omaha, Nebraska but grew up down the street in Laurel, Maryland. Following graduation, Matt plans on attending Physician Assistant school at a currently undecided location.
 					</p>
 				</div>
-				<div class="col">
+				<div class="col-12 col-sm-12 col-md-4 column-pad">
 					<h6>Vice President: Dylan Fox</h6>
 					<p>
 						Dylan is a junior at UMD currently pursuing a degree in Computer Science. He grew up in rural Baltimore County, where he ran track and cross country. When he's not traveling or coding, you can find him doing many extreme sports, like snowboarding, wakeboarding, climbing, and of course boxing.
 					</p>
 				</div>
-				<div class="col">
+				<div class="col-12 col-sm-12 col-md-4 column-pad">
 					<h6>Treasurer: Erik Ridings</h6>
 					<p>
 						Erik is a sophomore psych major at UMD. He is a member of the Army ROTC and the local fire station. His interests include reading and long walks up and down the Xfinity center stairs.
 					</p>
 				</div>
-			</div>
-
-			<div class="row">
-				<div class="col">
+				<div class="col-12 col-sm-12 col-md-4 column-pad">
 					<h6>Secretary: AJ Robinson</h6>
 					<p>
 						AJ has been in boxing club for three years and has served as secretary for one.  He currently has two more years of school left at the University of Maryland, where he studies as a double major in Russian Language and in History, specializing in Russia and Central and Eastern Europe as a region.  Before UMD, he studied at the College of Southern Maryland and graduated from there in 2016.
 					</p>
 				</div>
-				<div class="col">
+				<div class="col-12 col-sm-12 col-md-4 column-pad">
 					<h6>Safety Training Officer: Timothy Yelton</h6>
 					<p>
 						Timothy Yelton is a pre-med student majoring in Biology.  He believes fitness is the key to being proactive to health issues and loves to help others.
@@ -111,50 +111,33 @@
 	</section>
 
 	<!-- FAQS -->
-	<section id="faqs">
+	<section id="faqs" class="red">
 		<div class="container">
 			<div class="row">
-				<div class="col">
+				<div class="col-12 col-sm-12 col-md-12 column-pad">
 					<h2>FAQs</h2>
 					<p>Q: How much does it cost to join? <br>
 					A: For club members, dues are $25 and last till the end of spring semester of that year.  For members interested in joining the competitive team, dues are $75. </p>
 				</div>
-				<div class="col">
+				<div class="col-12 col-sm-12 col-md-12 column-pad">
 					<p>Q: Do I need to bring anything? <br>
 					A: Just yourself and some athletic shoes!  All dues paying members are also provided with a pair of complementary hand wraps which we encourage you to bring to every practice.  Additionally, gloves and mitts are free to use for any club members.  You will even see many experienced members bringing their personal equipment.  </p>
 				</div>
-				<div class="col">
+				<div class="col-12 col-sm-12 col-md-12 column-pad">
 					<p>Q: Will I get hit? <br>
 					A: Not unless you want to!  In the club we practice using mitts and gloves, but do not spar between members.  For those interested in sparring and competing, you can try out for the competitive team.  Get more information about the competitive team by coming to practice and talking to our coach or a club officer.</p>
 				</div>
-				<div class="col">
+				<div class="col-12 col-sm-12 col-md-12 column-pad">
 					<p>Q: Do I need to know anything about boxing? <br>
 					A: Nope!  Terps Boxing Club is open to all skill levels.  Whether you've been boxing for the past 10 years or have never picked up a pair of running shoes, we are here to provide a welcoming environment for all experience levels.</p>
 				</div>
-				<div class="col">
+				<div class="col-12 col-sm-12 col-md-12 column-pad">
 					<p>Q: What are the workouts like? <br>
 					A: Our workouts are very intense and aim to get all members into top physical shape.  Every practice focuses on cardio, intense calisthenics, and boxing technique, yet no practice is exactly the same.</p>
 				</div>
 			</div>
 		</div>
 	</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <!-- bootstrap javascript -->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

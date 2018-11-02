@@ -1,5 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500|Poppins:500,700,800');
+
+#override {
+	font-family: 'Montserrat';
+	color: #fff;
+}
+
 .hero {
 	background-image: url('images/boxing.jpg'); 
-	background-size: 1300px 1000px; 
-	min-height: 500px;
+	background-size: cover; 
+	background-position: center;
+	min-height: 31.25rem;
+}
+
+header {
+	background-color: #D90135;
+}
+
+.navbar-brand {
+	font-family: 'Montserrat';
+	font-size: 2rem;
+	font-style: italic;
+	font-weight: 800;
+}
+
+.nav-item a:hover {
+	text-decoration: underline;
+}
+
+.red {
+	background-color: #D90135;
+}
+
+.white {
+	background-color: #fff;
+	color: #000;
+}
+
+.white p {
+	color: #000;
+}
+
+.black {
+	background-color: #000;
+	color: #fff;
+}
+
+.black div {
+	padding-bottom: 1rem;
+}
+
+.black h6 {
+	font-weight: bold;
+}
+
+
+p {
+	color: #fff;
+}
+
+.row {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.black h2 {
+	padding-top: 2rem;
+}
+
+.hero h1 {
+	font-family: 'Montserrat';
+	font-weight: bold;
+	font-size: 5rem;
+	text-shadow: 3px 3px 5px #000;
+	padding-top: 6rem;
+}
+
+@media (max-width: 575.98px) {
+	.hero h1 {
+		font-size: 3rem;
+	}
 }
